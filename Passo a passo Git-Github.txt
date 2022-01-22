@@ -1,0 +1,43 @@
+# Um passo a passo para criar um repositório no Github.
+
+Na área logada do Github
+
+1 - Clicar no +v
+2 - Selecionar "New Repository"
+3 - Selecionar o Owner
+4 - Dar um nome ao repositório ("Repositary name")
+5 - No campo "Description" dê um resumo do assunto
+6 - Selecione qual tipo de opção se Pública ou Privada
+7 - Selecione "Readme" na qual será descrito um indice do repositório
+8 - Selecione ".gitgmore", caso haja arquivos a serem ignorados (não serão vercionados)
+9 - Selecione "Chose a license", caso haja uma licença
+10 - Clicar em "Create repositary"
+
+É possível editar o Readme no próprio editor do repositório.
+
+Para clonar o repositório remoto para o local:
+
+1 - Clique em "Code v"
+2 - Selcionar ou https ou SSH ou Github CLI
+3 - Copiar o endereço dado
+4 - Abri o Git Bash na pasta em que será trabalhada
+5 - Utilizar o camando: git clone + o endereço copiado do Github e pressionar o enter
+
+Realizando alterações no repositório local
+
+Sendo adicionado um arquivo, adicione-o a pasta com o camando
+	git add . ou git add -a
+
+Para verificar se tudo está OK
+	git status
+
+Para enviar para o repositóro remoto
+
+1 - Comitar a pasta
+	git commit -m "comentário"
+2 - Para enviar
+	git push origin main
+
+
+
+
